@@ -3,6 +3,7 @@ const m = document.querySelector('.munite')
 const s = document.querySelector('.second')
 
 
+
  const timeOutput = ()=>{
     
 let time = new Date();
@@ -16,10 +17,9 @@ hour =(hour<10)? "0"+ hour : hour;
 munite =(munite<10)? "0"+ munite : munite;
 second =(second<10)? "0"+ second : second;
 
- h.style.transform = `rotateZ(${hour*30+munite/12}deg)`
+ h.style.transform = `rotateZ(${hour*30+munite*0.5}deg)`
  m.style.transform = `rotateZ(${munite*6}deg)`
  s.style.transform = `rotateZ(${second*6}deg)`
-
  }
 
  setInterval(() => {

@@ -41,7 +41,7 @@ body{
     border-radius: 100%;
     /* top:15%; */
     left:24.5%;
-    padding:286px;
+    padding:300px;
     content: "";
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     width:25%;
@@ -131,9 +131,9 @@ body{
     width: 5px;
     height: 200px;
     background-color: white;
-     border-radius: 50% 50% 0% 0%;
-     box-shadow: 0 0 1rem white;
-     clip-path: polygon(34% 69%, 15% 68%, 15% 0, 90% 0, 83% 68%, 64% 69%, 64% 84%, 85% 84%, 85% 100%, 15% 100%, 15% 84%, 34% 84%);
+    border-radius: 50% 50% 0% 0%;
+    box-shadow: 0 0 1rem white;
+    clip-path: polygon(34% 69%, 15% 68%, 15% 0, 90% 0, 83% 68%, 64% 69%, 64% 84%, 85% 84%, 85% 100%, 15% 100%, 15% 84%, 34% 84%);
     
 
 

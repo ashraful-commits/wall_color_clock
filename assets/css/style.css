@@ -21,7 +21,7 @@ body{
     border-radius: 100%;
     padding:20px;
     box-shadow: 0 0 .5rem rgb(230, 255, 1)inset;
-    /* animation: circle_round .1s infinite alternate; */
+    
 }
 
 
@@ -37,19 +37,23 @@ body{
     border-radius: 100%;
     box-shadow: 0 0 1rem rgb(90, 36, 36) inset;
 }
-.circle::after{
-    border-radius: 100%;
-    /* top:15%; */
-    left:24.5%;
-    padding:300px;
+.clock::after{
+    width: 130%;
+    height: 130%;
+    top: -70px;
+    left: -70px;
     content: "";
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    width:25%;
-    height: 50%;
     position: absolute;
     background-image:radial-gradient(rgb(254, 0, 110),rgba(0, 15, 152, 0.652));
     z-index:-1;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
     animation:circle_round .1s linear infinite;
+    -webkit-animation:circle_round .1s linear infinite;
 }
 
 
